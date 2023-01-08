@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/icons8-n-64.png" type="image/x-icon">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -48,7 +49,7 @@
 								<div class="inner">
 									<div class="content">
 										<h2 class="major">About Me</h2>
-										<p>Hello! I completed my Bachelors in Information Technology(2018-2022) with 87.3% from VIT University, Vellore.<br> I'm currently working as a Software Engineer in Danske Bank.</p>
+										<p>Hello! I completed my Bachelors in Information Technology(2018-2022) from <a href="https://vit.ac.in/">VIT University</a>, Vellore, India.<br> I'm currently working as Associate Software Engineer in Danske IT.</p>
 										<!--<a href="#" class="special">Learn more</a>-->
 									</div>
 								</div>
@@ -60,9 +61,9 @@
 										<h2 class="major">Experience</h2>
 										<p>
 											<ul>
-												<li>Danske Bank - Associate Software Engineer(July 2022 - Present)</li>
-												<li>Danske Bank - Associate SWE Intern(Jan 2022 - July 2022)</li>
-												<li>Saint Louis University - Data Analyst Intern(November 2021 - December 2021)</li>
+												<li>Danske IT - Associate Software Engineer (July 2022 - Present)</li>
+												<li>Danske IT - Intern (Jan 2022 - July 2022)</li>
+												<li>Saint Louis University - Data Analyst Intern (October 2021 - November 2021)</li>
 											</ul>
 										</p>
 									</div>
@@ -75,27 +76,43 @@
 									<section class="features">
 										<article>
 											<h3 class="major">Intrusion Detection System with Convolutional Neural networks</h3>
-											<p>This is an Anomaly based Intrusion Detection system which classifies the network traffic. The top features 31 that have a greater importance in the classification process are selected using SelectKBest feature selection method. The feature vectors from the dataset are transformed into the feature matrices to form the images as the inputs of the CNN.
+											<p>This is an Anomaly based Intrusion Detection system which classifies the network traffic. The top features that have a greater significance in the classification process are selected using SelectKBest feature selection method. The feature vectors from the dataset are transformed into the feature matrices to form the images as the inputs of the CNN.
 											</p>
 											<a href="https://github.com/Nivedha-s/IDS-with-CNN" class="special">Link to project source</a>
 										</article>
 										<article>
 											<h3 class="major">Facial Emotion Recognition</h3>
-											<p>The CNN will classify the image into one of the seven emotional states namely - angry, disgusted, fearful, happy, neutral, sad and surprised. VGG16 pre-trained model is fine-tuned
-												The model takes images of dimension (50, 50, 3) and the output is one of the seven emotion classes. The base model(i.e VGG16 model) layers is set to non-trainable.	
+											<p>A Convolutional Neural Network is used to classify an image into one of the seven emotional states namely - angry, disgusted, fearful, happy, neutral, sad and surprised. VGG16 pre-trained model is used as the base network and is fine-tuned for this problem.
+												The model takes images of dimension (50, 50, 3) and the output is one of the seven emotion classes. 
 											</p>
 											<a href="https://github.com/Nivedha-s/Facial-Emotion-Recognition" class="special">Link to project source</a>
 										</article>
 										<article>
+											<h3 class="major">Emotion Prediction From Text using Back propagation network</h3>
+											<p>Implemented a Back Propagation Network for classifying sentences
+												according to the emotion states revealed. Pre-processing techniques, including
+												stemming, tokenization, and vectorization, were employed to process the sentences.</p>
+											<a href="https://github.com/Nivedha-s/Emotion-Prediction-From-Text" class="special">Link to project source</a>
+										</article>
+										<article>
 											<h3 class="major">Rain Prediction Application</h3>
-											<p>The project aims to create Decision Tree models that can predict if it will rain tomorrow and
-												today based on a set of features like the Maximum temperature, Evaporation, Sunshine, Wind
+											<p>The project uses Decision Tree models to predict if it will rain tomorrow and
+												today based on a set of attributes like the Maximum temperature, Evaporation, Sunshine, Wind
 												Gust Speed, Humidity at 9 am etc. The web application is created and rendered using Flask. The
 												values entered are given as input to the Decision Tree models created and the outputs are
 												displayed in the web application. And then the web application is deployed on Heroku.</p>
 											<a href="https://github.com/Nivedha-s/Rain-prediction" class="special">Link to project source</a>
 										</article>
 									</section>
+								</div>
+							</section>
+
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<div class="content">
+										<h2 class="major">Blogs</h2>
+										<div id="retainable-rss-embed" data-rss="https://medium.com/feed/@nivedha.s2000" data-maxcols="3" data-layout="grid" data-poststyle="external" data-readmore="Read the rest" data-buttonclass="btn btn-primary" data-offset="-100"></div>
+									</div>
 								</div>
 							</section>
 					</section>
@@ -118,6 +135,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-	</body>
+			<script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+		</body>
 </html>
